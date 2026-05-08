@@ -85,3 +85,6 @@ To achieve the Neon Vanguard look, use Google Fonts.
 
 - **Lowercase/Uppercase**  
   Use uppercase for tactical headers and lowercase for technical metadata or small labels to mimic common cyberpunk HUDs.
+
+# PROJECT DESIGN URL
+https://stitch.withgoogle.com/projects/11303593412036213295

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Primary Neon Branding */
+  --color-cyber-neon: #D1FF00;
+  --color-cyber-neon-muted: #8BA300;
+
+  /* Dark UI Foundations */
+  --color-cyber-black: #05070A;
+  /* Sidebar & Header */
+  --color-cyber-deep: #0D1117;
+  /* Main background */
+  --color-cyber-card: #1A1F26;
+  /* Surface elements */
+  --color-cyber-border: #2D343D;
+  /* Lines and Dividers */
+
+  /* Typography & Accents */
+  --color-cyber-text-muted: #94A3B8;
+  /* Description text */
+  --color-cyber-accent: #5BC0BE;
+  /* Subtle UI highlights */
+
+  /* Custom Glow (Optional but recommended for this UI) */
+  --shadow-neon: 0 0 15px 2px rgba(209, 255, 0, 0.3);
+
+
+  --font-michroma: "Michroma", sans-serif;
+}
+
+body {
+  background-color: var(--color-cyber-card);
+}

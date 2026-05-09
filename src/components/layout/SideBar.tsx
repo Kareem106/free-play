@@ -1,15 +1,15 @@
-import { Divide, FolderHeart, Grid2x2 } from "lucide-react";
+import { FolderHeart, Grid2x2 } from "lucide-react";
 
 export default function SideBar() {
   const links = [
     {
       label: "Discover",
-      icon: <Grid2x2 className="text-cyber-neon" size={30} />,
+      icon: <Grid2x2 className="text-cyber-neon" size={24} />,
       path: "",
     },
     {
       label: "Favorites",
-      icon: <FolderHeart className="text-cyber-neon" size={30} />,
+      icon: <FolderHeart className="text-cyber-neon" size={24} />,
       path: "",
     },
   ];
@@ -22,7 +22,7 @@ export default function SideBar() {
             className="flex flex-col justify-center items-center gap-1 mb-8 group cursor-pointer relative before:absolute before:-left-2 before:h-full before:w-1 before:bg-cyber-neon"
           >
             {link.icon}
-            <p className="text-cyber-neon font-medium text-xs group-hover:text-shadow-sm group-hover:text-shadow-cyber-neon transition-normal duration-150">
+            <p className="text-cyber-neon font-base text-xs group-hover:text-shadow-sm group-hover:text-shadow-cyber-neon transition-normal duration-150">
               {link.label}
             </p>
           </div>
